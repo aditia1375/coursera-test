@@ -1,29 +1,42 @@
-/* @media (min-width: 992px){
-
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-
-}
-
-@media (max-width: 767px){
-
-} */
-
 *{
   font-family: Comic Sans MS, Comic Sans, cursive;
   box-sizing: border-box;
 }
+
 h1{
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+#p1 {
+  background-color: #ffc9eb;
+  float: right;
+  width: 227px;
+  text-align: center;
+  font-size: 30px;
 }
 
+#p2 {
+  background-color: #ff6363;
+  float: right;
+  width: 227px;
+  text-align: center;
+  font-size: 30px;
+}
+#p3 {
+  background-color: #fdd299;
+  float: right;
+  width: 227px;
+  text-align: center;
+  font-size: 30px;
+}
+/* p.margin{
+  margin-left: 20px;
+  margin-right: 10px;
+} */
 p {
     border: 3px solid rgb(0, 0, 0);
     background-color: #747474;
     width: 90%;
-    height: 175px;
     margin-right: auto;
     margin-left: auto;
     color: rgb(0, 0, 0);
@@ -73,7 +86,6 @@ p {
     }
   }
   
-  /********** Medium devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
